@@ -2,9 +2,9 @@
 
 :root {
     --primary-color: #4267AA;
-    --secondary-color: #42E2B8;
-    --accent-color: #F3DFBF;
-    --additional-accent-color: #EB8A90;
+    --secondary-color: #42A5B1;
+    --accent1-color: #F3DFBF;
+    --accent2-color: #EB8A90;
 
     --heading-font: 'Roboto Slab', serif;
     --paragraph-font: 'Lexend', serif;
@@ -29,7 +29,7 @@ h1, h2, h3, h4, h5, h6 {
 
 header {
     padding: 9px;
-    background-color: var(--accent-color);
+    background-color: var(--accent1-color);
 }
 
 p {
@@ -40,7 +40,6 @@ nav {
     background-color: var(--nav-background-color);
     font-size: 1.2rem;
     display: flex;
-
 }
 
 nav a {
