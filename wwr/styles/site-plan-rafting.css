@@ -1,3 +1,5 @@
+/* This is a statement that stop one of the errors. */
+
 @import url('https://fonts.googleapis.com/css2?family=Lexend:wght@300&family=Roboto+Slab:wght@300&display=swap');
 
 :root {
@@ -29,8 +31,7 @@ h1, h2, h3, h4, h5, h6 {
 
 header {
     padding: 9px;
-    background-color: var(--accent1-color);
-}
+    background-color: var(--accent1-color);}
 
 p {
     padding: 5px;
