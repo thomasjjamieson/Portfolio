@@ -1,0 +1,60 @@
+@import url('https://fonts.googleapis.com/css2?family=Lexend:wght@300&family=Roboto+Slab:wght@300&display=swap');
+
+:root {
+    --primary-color: #4267AA;
+    --secondary-color: #42E2B8;
+    --accent-color: #F3DFBF;
+    --additional-accent-color: #EB8A90;
+
+    --heading-font: 'Roboto Slab', serif;
+    --paragraph-font: 'Lexend', serif;
+
+    --nav-background-color: #F3DFBF;
+    --nav-link-color: #4267AA;
+    --nav-hover-link-color: #4267AA;
+    --nav-hover-background-color: #EB8A90;
+
+}
+
+body {
+    font-family: var(--paragraph-font);
+    max-width: 960px;
+    padding: 20px;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: var(--heading-font);
+    color: var(--primary-color);
+}
+
+header {
+    padding: 9px;
+    background-color: var(--accent-color);
+}
+
+p {
+    padding: 5px;
+}
+
+nav {
+    background-color: var(--nav-background-color);
+    font-size: 1.2rem;
+    display: flex;
+
+}
+
+nav a {
+    display: block;
+    color: var(--nav-link-color);
+    text-decoration: none;
+    padding: 1rem;
+}
+
+nav a:link, nav a:visited {
+    color: var(--nav-link-color);
+}
+
+nav a:hover {
+    color: var(--nav-hover-link-color);
+    background-color: var(--nav-hover-background-color);
+}
