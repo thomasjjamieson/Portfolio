@@ -65,9 +65,12 @@ nav a:hover {
     background-color: var(--nav-hover-background-color);
 }
 
-.hero div {
+.hero {
     position: relative;
+}
 
+.hero img {
+    width: 100%;
 }
 
 
@@ -75,41 +78,26 @@ nav a:hover {
 .hero h1 {
     position: absolute;
     background-color: rgb(243, 223, 191, .7);
-    padding-left: 405px;
-    padding-right: 401px;
-
-    top: 315px;
-    left: 20px;
+    left: 0;
+    right: 0;
+    margin: 0 auto;
+    text-align: center;
+    top: 55px;
 }
 
 .hero article {
     position: absolute;
-    display: block;
-    width: 20%;
-    height: auto;
-    top: 450px;
-    right: 625px;
+    max-width: 90%;
+    top: 200px;
+    left: 0;
+    right: 0;
+    margin: 0 auto;
+    background-color: rgba(243, 223, 191, .7);
+    padding: 5px;
+}
+
+
+.hero article img {
     float: right;
-    
-
-}
-
-
-.hero img {
-
-    display: block;
-    width: 100%;
-    height: auto;
-    
-}
-
-.hero article p {
-    position: absolute;
-    display: block;
-    top: 0px;
-    right: 300px;
-    width: 135%;
-    height: auto;
-    background-color: rgb(243, 223, 191, .7);
-
+    width: 200px;
 }
