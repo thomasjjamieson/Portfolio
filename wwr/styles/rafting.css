@@ -81,6 +81,7 @@ nav a:hover {
 
 .hero article {
     position: absolute;
+    display: block;
     width: 20%;
     height: auto;
     top: 450px;
@@ -101,7 +102,8 @@ nav a:hover {
 
 .hero article p {
     position: absolute;
-    /* padding: 50px; */
+    display: block;
+    padding: 10px;
     top: 0px;
     right: 300px;
     width: 135%;
