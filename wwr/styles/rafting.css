@@ -1,3 +1,4 @@
+/* Comment */
 @import url('https://fonts.googleapis.com/css2?family=Lexend:wght@300&family=Roboto+Slab:wght@300&display=swap');
 
 * {
@@ -100,11 +101,11 @@ nav a:hover {
 
 .hero article p {
     position: absolute;
-    padding: 50px;
+    /* padding: 50px; */
     top: 0px;
     right: 300px;
-    width: 131%;
+    width: 135%;
     height: auto;
-    background-color: aqua;
+    background-color: rgb(254, 254, 254, .7);
 
 }
