@@ -28,6 +28,8 @@ body {
     font-family: var(--paragraph-font);
     max-width: 960px;
     padding: 20px;
+    margin: 0 auto;
+
 }
 
 h1, h2, h3, h4, h5, h6 {
@@ -36,8 +38,17 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 header {
+    display: grid;
+    grid-template-columns: 120px, 1fr, 2fr;
+    display: flex;  
+    align-items: center;
+    justify-content: space-around;
+
+
     padding: 9px;
-    background-color: var(--accent1-color);}
+    background-color: var(--accent1-color);
+}
+
 
 p {
     padding: 5px;
@@ -46,7 +57,9 @@ p {
 nav {
     background-color: var(--nav-background-color);
     font-size: 1.2rem;
+
     display: flex;
+
 }
 
 nav a {
@@ -54,6 +67,8 @@ nav a {
     color: var(--nav-link-color);
     text-decoration: none;
     padding: 1rem;
+
+
 }
 
 nav a:link, nav a:visited {
@@ -100,4 +115,40 @@ nav a:hover {
 .hero article img {
     float: right;
     width: 200px;
+}
+
+.history h2 {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.adventure div{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.adventure h2{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.adventure div :first-child{
+    width: 175px;
+    height: auto;
+
+}
+
+footer {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+}
+
+.sociallinks :nth-child(2) img{
+    width: 70px;
+    height: auto;
 }
