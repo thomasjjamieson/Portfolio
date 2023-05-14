@@ -129,14 +129,9 @@ nav a:hover {
     justify-content: space-between;
 }
 
-.adventure h2{
-    display: flex;
-    align-items: center;
-    justify-content: space-around;
-}
 
-.adventure div :first-child{
-    width: 175px;
+.adventure :nth-child(1){
+    width: 130px;
     height: auto;
 
 }
