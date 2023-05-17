@@ -128,6 +128,12 @@ nav a:hover {
     justify-content: space-between;
 }
 
+.adventure h2{
+
+    display: flex;
+    justify-content: space-between;
+}
+
 
 .adventure :nth-child(1){
     width: 130px;
