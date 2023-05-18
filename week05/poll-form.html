@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en-US">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>WDD 130 | HTML Form - User Poll</title>
+
+    <link rel="stylesheet" href="styles/poll-form.css">
+</head>
+
+<body>
+
+    <header>
+        <h1>WDD 130 | Thomas Jamieson | HTML Form - User Poll</h1>
+    </header>
+
+    <main>
+        <form>
+            <fieldset>
+                <legend>Contact Information</legend>
+
+                <div class="form-item column2">
+                    <label for="fullname">Full Name</label>
+                    <input type="text" id="fullname" name="fullname">
+                </div>
+
+                <div class="form-item column2">
+                    <label for="useremail">Email</label>
+                    <input type="text" id="useremail" name="useremail">
+                </div>
+
+            </fieldset>
+
+            <fieldset>
+                <legend>Questions</legend>
+
+
+                <div class="form-item column1">
+                    <label for="browser">What is your favorite browser?</label>
+                    <select name="browser" id="browser">
+                        <option value="Chrome">Chrome</option>
+                        <option value="Firefox">Firefox</option>
+                        <option value="Edge">Edge</option>
+                        <option value="Safari">Safari</option>
+                    </select>
+                </div>
+
+                <div class="form-item">
+                    <label for="pet">Do you have a household pet?</label>
+                    <input type="checkbox" id="pet" name="pet">
+                </div>
+
+                <div class="form-item">
+                    <label for="places">List the places you have lived.</label>
+                    <textarea name="places" id="places" rows="4" placeholder="Fallon Nevada, Reno Nevada, Rexburg Idaho"></textarea>
+                </div>
+
+            </fieldset>
+
+            <button type="submit">Submit Poll</button>
+        </form>
+
+    </main>
+    
+    <footer>
+        <p>@2023 | HTML Form - User Poll Activity | Thomas Jamieson</p>
+    </footer>
+
+</body>
+</html>
