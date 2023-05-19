@@ -1,0 +1,70 @@
+/* Comment */
+@import url('https://fonts.googleapis.com/css2?family=Lexend:wght@300&family=Roboto+Slab:wght@300&display=swap');
+
+* {
+	margin: 0;
+	padding: 0;
+    box-sizing: border-box;
+}
+
+:root {
+    --heading-font: 'Roboto Slab', serif;
+    --paragraph-font: 'Lexend', serif;
+
+}
+
+body {
+    font-family: var(--paragraph-font);
+    max-width: 960px;
+    padding: 20px;
+    margin: 0 auto;
+}
+
+header {
+    background-color: #dbcce9;
+    text-align: center;
+    margin: 0 auto;
+    width: 500px;
+    margin-top: 55px;
+}
+
+h1 {
+    font-family: var(--heading-font);
+    padding-top: 10px;
+
+}
+
+form {
+    width: 500px;
+    margin: 0 auto;
+	padding: 25px;
+    border: 10;
+    border-radius: 0%;
+    background-color: #dbcce9;
+    display: grid;
+}
+
+
+label {
+    text-align: right;
+    padding-right: 1rem;
+    font-weight: bold;
+    padding-bottom: 10px;
+
+}
+
+input, select, textarea {
+    font-size: larger;
+    padding: 1rem;
+}
+
+
+button {
+    background-color: rgb(193, 202, 202);
+}
+
+button:hover {
+    background-color: blue;
+}
+
+
