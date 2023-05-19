@@ -38,7 +38,7 @@ form {
     width: 500px;
     margin: 0 auto;
 	padding: 25px;
-    border: 10;
+    border: 0;
     border-radius: 0%;
     background-color: #dbcce9;
     display: grid;
