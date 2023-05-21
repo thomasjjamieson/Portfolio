@@ -192,7 +192,7 @@ form {
     width: 500px;
     margin: 0 auto;
 	padding: 25px;
-    border: 10;
+    border: 10px;
     border-radius: 0%;
     background-color: var(--accent1-color);
     display: grid;
