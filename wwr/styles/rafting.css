@@ -87,8 +87,6 @@ nav a:hover {
     width: 100%;
 }
 
-
-
 .hero h1 {
     position: absolute;
     background-color: rgb(243, 223, 191, .7);
@@ -141,14 +139,124 @@ nav a:hover {
 
 }
 
-footer {
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
 
-}
 
 .sociallinks :nth-child(2) img{
     width: 70px;
     height: auto;
+}
+
+
+iframe {
+    padding-bottom: 50px;
+}
+
+
+
+.em {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.em h2{
+    position: absolute;
+    left: 0;
+    right: 0;
+    margin: 0 auto;
+    text-align: center;
+    top: 778px;
+
+}
+
+
+.em :nth-child(1){
+    width: 300px;
+    height: auto;
+
+}
+
+
+footer {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-top: 100px;
+
+}
+
+
+/* Form formating */
+
+form {
+    width: 500px;
+    margin: 0 auto;
+	padding: 25px;
+    border: 10;
+    border-radius: 0%;
+    background-color: var(--accent1-color);
+    display: grid;
+    margin-top: 50px;
+}
+
+fieldset {
+
+    display: grid;
+    grid-gap: 15px;
+
+}
+
+legend {
+    color: rgb(0, 0, 0);
+    background-color: var(--accent1-color);
+    padding: 3px;
+
+}
+
+label {
+    text-align: right;
+    padding-right: 1rem;
+
+
+}
+
+input, select, textarea {
+    font-size: larger;
+    padding: 1rem;
+
+
+}
+
+input[type="checkbox"] {
+    /* width: 15px;
+    height: 15px; */
+
+
+}
+
+button {
+    margin-top: 10px;
+    background-color: rgb(193, 202, 202);
+    font-size: 25px;
+
+}
+
+button:hover {
+    background-color: var(--nav-hover-background-color);
+}
+
+
+.form-item {
+    display: grid;
+    align-items: center;
+}
+
+.column1 {
+    grid-template-columns: 3fr 1fr;
+    margin: 15px;
+}
+
+.column2 {
+    grid-template-columns: 1fr 2fr;
+    margin: 15px;
 }
