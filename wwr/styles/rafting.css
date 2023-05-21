@@ -227,12 +227,12 @@ input, select, textarea {
 
 }
 
-input[type="checkbox"] {
-    /* width: 15px;
-    height: 15px; */
+/* input[type="checkbox"] {
+    width: 15px;
+    height: 15px;
 
 
-}
+} */
 
 button {
     margin-top: 10px;
