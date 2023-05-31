@@ -9,7 +9,7 @@
 }
 
 :root {
-    --primary-color: #4267AA;
+    --primary-color: #0f306e;;
     --secondary-color: rgb(66, 165, 176);
     --accent1-color: rgb(243, 223, 191);
     --accent2-color: rgb(235, 138, 144);
@@ -94,6 +94,18 @@ nav a:hover {
     right: 0;
     margin: 0 auto;
     text-align: center;
+    top: 55px;
+}
+
+.hero h2 {
+    position: absolute;
+    font-size: 50px;
+    background-color: rgb(243, 223, 191, .7);
+    left: 0;
+    right: 0;
+    margin: 0 auto;
+    text-align: center;
+    
     top: 55px;
 }
 
@@ -251,6 +263,8 @@ button:hover {
     align-items: center;
 }
 
+
+
 .column1 {
     grid-template-columns: 3fr 1fr;
     margin: 15px;
@@ -260,6 +274,7 @@ button:hover {
     grid-template-columns: 1fr 2fr;
     margin: 15px;
 }
+
 
 
 
@@ -304,14 +319,16 @@ button:hover {
 
 }
 
+.grid_trips figure img {
+    max-width: 100%;
+}
+
+
 .trips_header {
     text-align: center;
     padding-bottom: 10px;
 }
 
-.grid_trips figure img {
-    max-width: 100%;
-}
 
 
 
@@ -328,4 +345,45 @@ table, td {
 
 td, tr {
     padding: 5px;
+}
+
+
+/* home page */
+
+
+.reserve_trip {
+    margin-top: 50px;
+    background-color:  rgb(243, 223, 191);
+    font-size: 25px;
+    text-align: center;
+    margin-bottom: -50px;
+
+}
+
+.reserve_trip a {
+    text-decoration: none;
+    display: block;
+    color: var(--nav-link-color);
+    padding: 1rem;
+    border: #333 solid;
+}
+
+.reserve_trip a:hover {
+    color: var(--nav-hover-link-color);
+    background-color: var(--nav-hover-background-color);
+}
+
+
+
+.grid_home {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 15px;
+    padding-top: 75px;
+
+
+}
+
+.grid_home figure img {
+    max-width: 100%;
 }
