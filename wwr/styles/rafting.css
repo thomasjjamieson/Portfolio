@@ -271,6 +271,8 @@ button:hover {
     padding: 50px;
     padding-bottom: 110px;
     grid-gap: 5px;
+    background-color: #F3DFBF;
+    border-top: solid black;
 }
 
 .grid_contact p {
@@ -294,29 +296,36 @@ button:hover {
 
 
 
-.flex_trips {
-    display: flex;
-    justify-content: space-evenly;
-
-
-}
-
-.flex_trips img{
-
-    width: 275px;
-
-}
-
-.flex_trips h2 {
-    position: absolute;
-    top: 670px;
-}
-
-
 .grid_trips {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
+    gap: 15px;
 
-    justify-content: space-evenly;
 
+}
+
+.trips_header {
+    text-align: center;
+    padding-bottom: 10px;
+}
+
+.grid_trips figure img {
+    max-width: 100%;
+}
+
+
+
+thead {
+    background-color: #F3DFBF;
+    color: #0f306e;
+}
+
+table, td {
+    border: 1px solid #333;
+    border-collapse: collapse;
+    margin-top: 50px;
+}
+
+td, tr {
+    padding: 5px;
 }
